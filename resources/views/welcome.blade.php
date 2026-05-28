@@ -11,7 +11,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            /* Update PATH_KE_FOTO_GEDUNG_ANDA.jpg dengan lokasi foto Anda */
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/gedung_tinggi.jpg');
             background-size: cover;
             background-position: center;
@@ -22,10 +21,10 @@
             text-align: center;
             color: #FFFFFF;
             padding: 40px;
-            background: rgba(93, 64, 55, 0.8); /* Warna Coklat Bude Tua Transparan */
+            background: rgba(93, 64, 55, 0.8); 
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            backdrop-filter: blur(10px); /* Efek Blur untuk kesan premium */
+            backdrop-filter: blur(10px); 
         }
 
         h1.display-3 {
@@ -39,7 +38,7 @@
         }
 
         .btn-custom {
-            background-color: #A1887F; /* Warna Coklat Bude Medium */
+            background-color: #A1887F; 
             color: white;
             padding: 15px 40px;
             border-radius: 50px;
@@ -52,7 +51,7 @@
         .btn-custom:hover {
             background-color: #FFFFFF;
             color: #5D4037;
-            transform: translateY(-3px); /* Efek melayang saat hover */
+            transform: translateY(-3px); 
         }
     </style>
 </head>
