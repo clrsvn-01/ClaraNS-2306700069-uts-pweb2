@@ -5,12 +5,7 @@
     <title>Detail Karyawan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* CSS UNTUK MENAMPILKAN FOTO GEDUNG SEBAGAI BACKGROUND */
         body {
-            /* Ganti '/img/office-building.jpg' dengan path foto Anda.
-               Pastikan foto sudah ada di folder public/img/.
-               Kami menambahkan linear-gradient agar kartu profil tetap mudah dibaca.
-            */
             background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/gedung_tinggi.jpg');
             background-size: cover;
             background-position: center;
@@ -21,11 +16,11 @@
         }
 
         .card { 
-            background: rgba(255, 248, 225, 0.9); /* Sedikit Transparan agar estetik */
+            background: rgba(255, 248, 225, 0.9); 
             border-radius: 20px; 
             border: none; 
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            backdrop-filter: blur(5px); /* Efek blur untuk kesan premium */
+            backdrop-filter: blur(5px); 
         }
         
         .card-header { 
