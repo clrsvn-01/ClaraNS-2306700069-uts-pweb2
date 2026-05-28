@@ -7,7 +7,6 @@
     <style>
         body { background-color: #F5F5DC; font-family: 'Poppins', sans-serif; font-weight: 700; }
         
-        /* Sidebar dengan sentuhan gradasi coklat */
         .sidebar { 
             background: linear-gradient(180deg, #5D4037 0%, #3E2723 100%); 
             color: #D7CCC8; height: 100vh; position: fixed; width: 250px; padding: 20px; 
@@ -16,7 +15,6 @@
         
         .main-content { margin-left: 250px; padding: 40px; }
         
-        /* Card dengan efek shadow yang lebih elegan */
         .card { 
             background: rgba(255, 255, 255, 0.95); 
             border-radius: 20px; 
