@@ -25,7 +25,6 @@ class EmployeeController extends Controller
         $users = Http::get('https://jsonplaceholder.typicode.com/users')->json();
         $targetUser = collect($users)->firstWhere('id', (int)$id);
 
-        // Menghitung jarak ke semua karyawan lain dengan Haversine Formula
         $colleagues = collect($users)->map(function ($user) use ($targetUser) {
             if ($user['id'] == $targetUser['id']) return null;
 
